@@ -1,0 +1,12 @@
+var numero;
+numero=parseInt(prompt("ingrese un numero"));
+if (numero<0){
+    while(numero<0){
+        numero=parseInt(prompt("ingrese un numero"));
+        if(numero>=0){
+            document.write(numero);
+        }
+    }
+}else{
+    document.write(numero);
+}

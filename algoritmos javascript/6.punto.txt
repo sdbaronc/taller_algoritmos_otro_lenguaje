@@ -1,0 +1,15 @@
+var num_1;
+var num_2;
+var sum;
+var res;
+var div;
+var mult;
+var resi;
+num_1=parseInt(prompt("ingrese el primer numero"));
+num_2=parseInt(prompt("ingrese el segundo numero"));
+sum=num_1+num_2;
+res=num_1-num_2;
+div=num_1/num_2;
+mult=num_1*num_2;
+resi=num_1%num_2;
+document.write("la suma de los dos numeros es :",sum,"\nla resta de los dos numeros es :",res,"\nla multiplicacion de los dos numeros es :",mult,"\nla divicion de los dos numeros es :",div,"\nel residuo entre los dos numeros es :",resi);

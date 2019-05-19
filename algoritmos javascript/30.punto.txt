@@ -1,0 +1,11 @@
+var venta;
+var coniva;
+var desc;
+venta=parseInt(prompt("ingrese el valor de la venta"));
+coniva=(venta*0.19)+venta;
+if(coniva>150000){
+    desc=coniva-(coniva*0.05);
+    document.write("el precio a pagar es de :",desc);
+}else{
+    document.write("el precio a pagar es de :",coniva);
+}

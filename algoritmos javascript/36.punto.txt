@@ -1,0 +1,14 @@
+var n1;
+var n2;
+var n3;
+var sum;
+n1=parseFloat(prompt("ingrese un numero"));
+n2=parseFloat(prompt("ingrese un numero"));
+n3=parseFloat(prompt("ingrese un numero"));
+
+sum=n1+n2;
+if (sum>n3){
+    document.write("la suma de los dos primeros es mayor que el tercero");
+}else{
+    document.write("la suma de los dos primeros no es mayor que el tercero");
+}

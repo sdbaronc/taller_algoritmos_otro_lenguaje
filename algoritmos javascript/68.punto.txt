@@ -1,0 +1,28 @@
+var n;
+positivos = 0;
+negativos = 0;
+pares =0;
+impares =0;
+multi =0;
+n=parseInt(prompt("ingrese un numero, si ingresa 0 el ciclo termina"));
+if(n!=0){ 
+    while(n!=0){
+        n=parseInt(prompt("ingrese un numero, si ingresa 0 el ciclo termina"));
+        if (n>0){
+            positivos ++;
+        }
+        if (n<0){
+            negativos ++;
+        }
+        if (n%2==0){
+            pares ++;
+        }
+        if (n%2!=0){
+            impares ++;
+        }
+        if (n%8==0){
+            multi ++;
+        }
+    }
+}   
+document.write(positivos,"...",negativos,"...",pares,"...",impares,"...",multi);

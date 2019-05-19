@@ -1,0 +1,28 @@
+c_bultos=0;
+p_total=0;
+b_mayor=0;
+precio=0;
+
+
+while(p_total<=18000){
+    n=parseInt(prompt("ingrese el peso del bulto"));
+    if (n<=500){
+        if(p_total+n>18000){
+            break
+        }else{
+            p_total +=n;
+            c_bultos ++;
+        }
+        if(n>b_mayor){
+            b_mayor=n;
+        }
+        if(n >26 && n <= 300){
+            tarifa=n*1500;
+        }else if(n>=301 && n<=500){
+            tarifa=n*2500;
+        }
+        precio+=tarifa;
+    }
+ }
+ prom= p_total/c_bultos;
+document.write("la cantidad de bultos es de:",c_bultos,"<br>el peso total es de:",p_total,"<br>el promedio del peso es de:",prom,"<br>el precio del vuelo es de :",precio);        

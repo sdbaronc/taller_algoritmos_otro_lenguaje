@@ -1,0 +1,8 @@
+var aceleracion;
+var tiempo;
+var vel;
+
+aceleracion=parseFloat(prompt("ingrese la aceleracion m/s "));
+tiempo=parseFloat(prompt("ingrese el tiempo en segundos"));
+vel=aceleracion*tiempo
+document.write("la velocidad final es de :" + vel + "m/s");

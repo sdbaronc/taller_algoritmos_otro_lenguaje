@@ -1,0 +1,5 @@
+var segundos;
+var munutos;
+segundos=parseInt(prompt("ingrese la cantidad de segundos"));
+minutos=segundos/60;
+document.write("la cantidad de minutos es de :", minutos);

@@ -1,0 +1,7 @@
+var radio;
+var peri;
+var area;
+radio=parseFloat(prompt("ingrese el radio de el circulo"));
+peri=(2*3,1416)*radio;
+area=3,1416*Math.pow(radio,2);
+document.write("el perimetro del circulo es :" + peri + "\nEl area del circulo es :" + area);

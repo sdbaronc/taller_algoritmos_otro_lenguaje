@@ -1,0 +1,4 @@
+var num;
+num = parseInt((prompt("ingrese un numero")),2);
+numbi= num.toString(16);
+document.write(numbi);

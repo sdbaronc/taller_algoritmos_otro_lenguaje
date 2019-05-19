@@ -1,0 +1,10 @@
+var cadena = "@ ";
+var piramide="";
+n=parseInt(prompt("ingrese el numero de filas"))
+//con for
+for(var i =0; i<n+1; i++){
+    piramide +=cadena;
+    document.write(piramide+ "<br>");
+
+
+}

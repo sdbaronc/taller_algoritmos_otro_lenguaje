@@ -1,0 +1,11 @@
+var m;
+var a;
+var m2;
+var a2;
+var f;
+m=parseFloat(prompt("ingrese el valor de la masas en kg"));
+a=parseFloat(prompt("igrese la aceleracio del cuerpo en m/s"));
+m2=parseFloat(prompt("ingrese el valor de la masas en kg"));
+a2=parseFloat(prompt("igrese la aceleracio del cuerpo en m/s"));
+f=(m*a)+(m2+a2);
+document.write("la fuerza entre los dos objetos es: ",f,);

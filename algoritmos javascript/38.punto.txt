@@ -1,0 +1,7 @@
+var n1;
+n1=parseFloat(prompt("ingrese un año"));
+if((n1%4==0 && n1%100!=0)||n1%400==0){
+    document.write("el año es biciesto");
+}else{
+    document.write("el año no es biciesto");
+}

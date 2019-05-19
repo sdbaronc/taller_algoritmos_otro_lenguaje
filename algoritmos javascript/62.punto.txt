@@ -1,0 +1,16 @@
+var m;
+var n;
+var sum;
+m=parseInt(prompt("ingrese un numero"));
+n=parseInt(prompt("ingrese un numero mayor al anterior"));
+
+
+if(m>n ||m==n){
+    document.write("recarge la pagina y asegurese de que el segundo numero sea mayor que el primero");
+}else{
+    sum=0
+    for(i=m;i<n+1;i++){
+        sum += i;
+    }
+    document.write(sum);
+}

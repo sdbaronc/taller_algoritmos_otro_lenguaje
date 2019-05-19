@@ -1,0 +1,13 @@
+var usuario;
+var contraseña;
+usuario="sergio";
+contraseña="Chexo123";
+var usuario2;
+var contraseña2;
+usuario2=prompt("igrese un usuario")
+contraseña2=prompt("ingrese una contraseña");
+if(contraseña==contraseña2 && usuario==usuario2){
+    document.write("el usuario  la contraseña son correctos");
+}else{
+    document.write("el usuario y contraseña no corresponden con las predetrminadas");
+}

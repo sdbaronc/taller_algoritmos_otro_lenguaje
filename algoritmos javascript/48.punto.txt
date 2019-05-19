@@ -1,0 +1,10 @@
+cadena=prompt("ingrese un string")
+var x = cadena.length;
+var cadenaInvertida = "";
+ 
+  while (x>=0) {
+    cadenaInvertida = cadenaInvertida + cadena.charAt(x);
+    x --;
+  }
+document.write(cadena,"...." );
+document.write(cadenaInvertida);

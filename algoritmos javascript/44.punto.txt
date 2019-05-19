@@ -1,0 +1,11 @@
+var n1;
+var n2;
+
+n1= parseInt(prompt("ingrese un numero"));
+n2= parseInt(prompt("ingrese un numero"));
+
+if ((n1<5  && n2<5)&&(n1>=0 && n2>=0)){
+    document.write("los numeros estan entre 0 y 5");
+}else{
+    document.write(false);
+}

@@ -1,0 +1,6 @@
+var altura;
+var tiempo;
+
+altura=parseFloat(prompt("ingrese la altura en metros"));
+tiempo=Math.sqrt((2*altura)/9.8);
+document.write("el tiempo que tarda en caer el objeto des dicha altura es de :",tiempo," segundos");

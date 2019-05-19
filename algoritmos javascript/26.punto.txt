@@ -1,0 +1,13 @@
+var uno;
+var dos;
+var tres;
+var cuatro;
+var cinco;
+var seis;
+uno=true||false;
+dos=false||false;
+tres=true&&true;
+cuatro=false&&true;
+cinco=(false&&false)||(true&&true);
+seis=(false||false)&&(true&&true);
+document.write(uno,"...",dos,"...",tres,"...",cuatro,"...",cinco,"...",seis);

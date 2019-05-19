@@ -1,0 +1,12 @@
+var n;
+var acum;
+var prom;
+n=parseInt(prompt("ingrese la cantidad de numeros"));
+
+acum=0
+for(i=0;i<n;i++){
+    m=parseInt(prompt("ingres un numero"));
+    acum += m;
+}
+prom= acum/n;
+document.write("la suma de tos los numeros es :",acum,"<br>el promedio de todos lonumeros es de :",prom);

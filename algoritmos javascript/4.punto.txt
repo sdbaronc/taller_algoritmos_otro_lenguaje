@@ -1,0 +1,7 @@
+var num_1;
+var num_2;
+var sum;
+num_1=parseInt(prompt("ingrese un numero"));
+num_2=parseInt(prompt("ingrese un numero"));
+sum=num_1+num_2;
+document.write("la suma de los dos numeros es : ",sum);

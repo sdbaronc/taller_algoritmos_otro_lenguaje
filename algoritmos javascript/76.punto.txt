@@ -1,0 +1,9 @@
+var num;
+num = parseInt(prompt("ingrese un numero"));
+factros =0
+for(i=1;i<=num;i++){
+    if(num%i==0){
+        factros ++;
+    }
+}
+document.write(factros);

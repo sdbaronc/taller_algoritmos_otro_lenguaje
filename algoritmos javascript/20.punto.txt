@@ -1,0 +1,13 @@
+var n;
+var n_2;
+var n_3;
+var n_4;
+var n_5;
+var sum;
+n=parseInt(prompt("ingrese un numero de un digito"));
+n_2=n*10;
+n_3=n_2+n;
+n_4=n*100;
+n_5=n_4+n_3;
+sum=n+n_3+n_5;
+document.write(n,"...",n_3,"...",n_5,"y la suma es :",sum);

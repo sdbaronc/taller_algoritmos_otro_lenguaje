@@ -1,0 +1,11 @@
+a=0;
+n=parseInt(prompt("ingresar numeros de flias: "))
+for (i=1;i<=n;i++){
+    for( l=0;l<i;l++){
+        z=i+l;
+        document.write(end=str(z))
+    }    
+    document.write(" ")
+    i=i+a;
+    a=a+1;
+}    

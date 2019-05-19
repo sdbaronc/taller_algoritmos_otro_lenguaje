@@ -1,0 +1,9 @@
+var num_1;
+var num_2;
+var num_3;
+var prom;
+num_1=parseFloat(prompt("ingrese un numro"));
+num_2=parseFloat(prompt("ingrese un numro"));
+num_3=parseFloat(prompt("ingrese un numro"));
+prom=(num_1+num_2+num_3)/3;
+document.write("el promedio de los tres numeros fue :",prom);

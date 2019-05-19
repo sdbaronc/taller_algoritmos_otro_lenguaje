@@ -1,0 +1,13 @@
+var n1;
+var n2;
+var n3;
+
+n1= parseInt(prompt("ingrese un numero"));
+n2= parseInt(prompt("ingrese un numero"));
+n3= parseInt(prompt("ingrese un numero"));
+
+if(n1==n2||n2==n3||n3==n1){
+    document.write("hay dso numeros iguales");
+}else{
+    document.write("no hay bumerosiguales");
+}

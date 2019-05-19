@@ -1,0 +1,1 @@
+var elevado = Math.pow(2, 3);
